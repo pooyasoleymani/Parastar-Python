@@ -38,16 +38,16 @@ pip install mysqlclient==2.0.1
 ## Settings
 
  ##### Using the URLconf defined in todoapi.urls, Django tried these URL patterns, in this order:
- 1.admin/
-2.todos/
-3.todos/< int : id >/
-4.serviceRequest/
-5.serviceRequest/< int : id >/
-6.servicecatalog/
-7.servicecatalog/< int : id >/
-8.api/create-user/ [name='create_user']
-9.api/create-user/< int : id >/ [name='create_user']
-10.api/create-token/ [name='create_token']
+ - admin/
+- todos/
+- todos/< int : id >/
+- serviceRequest/
+- serviceRequest/< int : id >/
+- servicecatalog/
+- servicecatalog/< int : id >/
+- api/create-user/ [name='create_user']
+- api/create-user/< int : id >/ [name='create_user']
+- api/create-token/ [name='create_token']
 
 
 
