@@ -1,0 +1,65 @@
+# Ignore virtual environment directories
+venv/
+env/
+.venv/
+.env/
+
+# Ignore pipenv files
+Pipfile
+Pipfile.lock
+
+# Ignore poetry files
+poetry.lock
+
+# Ignore pipenv and poetry virtual environment files
+.venv/
+.venv-*/
+
+# Ignore Anaconda environment files
+.conda/
+environment.yml
+.condarc
+
+# Django project settings
+*.pyc
+*.pyo
+*.env
+*.sqlite3
+local_settings.py
+db.sqlite3
+
+# Django static files
+/staticfiles/
+/static/
+
+# Django media files
+/media/
+
+# Virtual environment
+.venv/
+venv/
+.env/
+
+# IDE files
+.vscode/
+.idea/
+
+# Compiled Python files
+__pycache__/
+
+# Logs
+*.log
+
+# Dependency files
+pip-lock.txt
+requirements.txt
+
+# Ignore migrations (uncomment if desired)
+# */migrations/
+
+# Ignore sensitive or environment-specific files (uncomment if desired)
+# .env
+# secret_key.txt
+
+# Ignore development or local files (uncomment if desired)
+# local_settings.py
