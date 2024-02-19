@@ -35,6 +35,13 @@ pip install django-cors-headers==3.5.0
 pip install mysqlclient==2.0.1
 ```
 
+4. Django REST framework for building Web APIs using Python and Django.
+
+```
+pip install djangorestframework==3.12.2
+```
+
+
 ## Settings
 
  ##### Using the URLconf defined in todoapi.urls, Django tried these URL patterns, in this order:
