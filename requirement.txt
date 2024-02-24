@@ -1,0 +1,6 @@
+djangorestframework==3.14.0
+mysqlclient==2.2.4
+pip==24.0
+pytz==2024.1
+sqlparse==0.4.4
+tzdata==2024.1
